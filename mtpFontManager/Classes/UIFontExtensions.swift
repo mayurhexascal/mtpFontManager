@@ -73,7 +73,7 @@ extension UIFont {
             return  UIFont.systemFont(ofSize: UIFont.systemFontSize)
         }
        
-        return UIFont(name: font.defaultFont, size: size)!
+        return UIFont(name: font.defaultFont, size: size) ?? UIFont()
     }
     
     @objc private class func myBoldSystemFont(ofSize size: CGFloat) -> UIFont {
@@ -141,7 +141,7 @@ extension UIFont {
         
         let apperance = UINavigationBar.appearance()
         var titleAttr = apperance.titleTextAttributes ??  [:]
-        titleAttr.updateValue( UIFont(name: font.semibold ?? font.defaultFont, size: 17)!, forKey:  NSAttributedString.Key.font)
+        titleAttr.updateValue( UIFont(name: font.semibold ?? font.defaultFont, size: 17), forKey:  NSAttributedString.Key.font)
         apperance.titleTextAttributes = titleAttr
         
         
@@ -149,7 +149,7 @@ extension UIFont {
             let buttonBarAppearance=UIBarButtonItem.appearance(whenContainedInInstancesOf: [UINavigationBar.self])
             var barButtonTitleAttr = convertFromOptionalNSAttributedStringKeyDictionary(convertFromOptionalNSAttributedStringKeyDictionary(buttonBarAppearance.titleTextAttributes(for: .normal))) ?? [:]
             
-            barButtonTitleAttr.updateValue(UIFont(name: font.regular ?? font.defaultFont, size: 17)!, forKey: NSAttributedString.Key.font.rawValue)
+            barButtonTitleAttr.updateValue(UIFont(name: font.regular ?? font.defaultFont, size: 17), forKey: NSAttributedString.Key.font.rawValue)
             
             let convertedAttributes = Dictionary(uniqueKeysWithValues:
                 barButtonTitleAttr.lazy.map { (NSAttributedString.Key($0.key), $0.value) }
