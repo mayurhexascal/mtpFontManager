@@ -14,8 +14,8 @@ public class FontManager {
     private init() {
     }
 
-    private var _currentFont: AppFont?
-    public var currentFont: AppFont? {
+    private var _currentFont: AppFontFamilyType?
+    public var currentFont: AppFontFamilyType? {
         set {
             if let oldId = _currentFont?.id, let newId = newValue?.id, newId == oldId {
                 return

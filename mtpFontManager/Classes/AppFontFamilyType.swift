@@ -8,7 +8,7 @@
 import Foundation
 
 /// Font name struct
-public struct AppFont {
+public struct AppFontFamilyType {
     public let id: Int
     public let familyName: String
     public let defaultFont: String

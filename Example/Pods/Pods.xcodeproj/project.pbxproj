@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D16E23F2061200C37BFB19AD44A390A /* Pods-mtpFontManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DC4C8DB59DAA66A0A2BDA2EEE439C0 /* Pods-mtpFontManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EC6B48307960B76D904D849616523E2 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F2A16B0157384EA98C59EDF4A155DA /* AppFont.swift */; };
+		3EC6B48307960B76D904D849616523E2 /* AppFontFamilyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F2A16B0157384EA98C59EDF4A155DA /* AppFontFamilyType.swift */; };
 		4F97551D6BB3666DAB8F64B85B1FD6CB /* Pods-mtpFontManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EF261C66BA450D7504527B46DD55E /* Pods-mtpFontManager_Example-dummy.m */; };
 		5065715AEB5F960167E890229CBFEE17 /* mtpFontManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A086331DF8D99138EDB335FA931D29B /* mtpFontManager-dummy.m */; };
 		53388B673961BCCCE83466D262F4E1BE /* mtpFontManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 070319E0D75431DFF453A775490EECE7 /* mtpFontManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,7 +62,7 @@
 		116939B03FAD42726BF86442BA541A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E1BA579458CD0E473FFC54F90A9008 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1592B525AD55F856822BD842ACC309F4 /* Pods-mtpFontManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mtpFontManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		19F2A16B0157384EA98C59EDF4A155DA /* AppFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppFont.swift; path = mtpFontManager/Classes/AppFont.swift; sourceTree = "<group>"; };
+		19F2A16B0157384EA98C59EDF4A155DA /* AppFontFamilyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppFontFamilyType.swift; path = mtpFontManager/Classes/AppFontFamilyType.swift; sourceTree = "<group>"; };
 		237665A619C87C197D555B56D3B7FCEF /* mtpFontManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mtpFontManager.xcconfig; sourceTree = "<group>"; };
 		29ADE79CDC6EB679EB05B6B45006EA9F /* FontBlaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontBlaster-umbrella.h"; sourceTree = "<group>"; };
 		2E9F16396138AC8B7FE9D9D082B0BBD9 /* FontBlaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontBlaster-dummy.m"; sourceTree = "<group>"; };
@@ -265,7 +265,7 @@
 				5C34F541AFC63F4491C6EB806354F5B9 /* Constants.swift */,
 				0FAD81B6D36EF17D85E9BB655B618DED /* DynamicTypes.swift */,
 				727D85A748FC9D250898B92B0C8BFEF2 /* FontManager.swift */,
-				19F2A16B0157384EA98C59EDF4A155DA /* AppFont.swift */,
+				19F2A16B0157384EA98C59EDF4A155DA /* AppFontFamilyType.swift */,
 				9FD159E787A0EA8D12ED2888289D6A8A /* Helpers.swift */,
 				D6246A8DC3E1501445A963CEA751E7E7 /* UIFontExtensions.swift */,
 				887EEE8280C885FECE37D43A3D4D244B /* Pod */,
@@ -521,7 +521,7 @@
 				924AD51DF40B9B2CDD2012D7BD1695AB /* Constants.swift in Sources */,
 				F0EA2D2E380A456D009D3C64AB45B296 /* DynamicTypes.swift in Sources */,
 				E46CA9256E4B3B81BA880BD8BE9A2699 /* FontManager.swift in Sources */,
-				3EC6B48307960B76D904D849616523E2 /* AppFont.swift in Sources */,
+				3EC6B48307960B76D904D849616523E2 /* AppFontFamilyType.swift in Sources */,
 				EA25B2512336BD8819C5E9B6C3D2E569 /* Helpers.swift in Sources */,
 				5065715AEB5F960167E890229CBFEE17 /* mtpFontManager-dummy.m in Sources */,
 				E777AA57AB8393D0BA467EB72C9E3AC6 /* UIFontExtensions.swift in Sources */,
