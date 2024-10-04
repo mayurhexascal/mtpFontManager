@@ -22,11 +22,11 @@ mtpFontManager is a font Manager for iOS to simplify use of custom fonts.
 mtpFontManager also supports applay custom font entire application, varius font weight and dynamic types styles.
   DESC
 
-  s.homepage         = 'https://github.com/mostafataghipour/mtpFontManager'
+  s.homepage         = 'https://github.com/mayurhexascal/mtpFontManager.git'
   s.screenshots     = 'https://raw.githubusercontent.com/MostafaTaghipour/mtpFontManager/master/screenshots/1.gif', 'https://raw.githubusercontent.com/MostafaTaghipour/mtpFontManager/master/screenshots/2.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mostafa Taghipour' => 'mostafa.taghipour@ymail.com' }
-  s.source           = { :git => 'https://github.com/mostafataghipour/mtpFontManager.git', :branch => 'Update-force-fully-code-into-optional-code' }
+  s.source           = { :git => 'https://github.com/mayurhexascal/mtpFontManager.git', :branch => 'Update-force-fully-code-into-optional-code' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.2'
