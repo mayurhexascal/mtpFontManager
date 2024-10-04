@@ -17,8 +17,8 @@ let persistFontKey = "font"
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
-    lazy var exo: AppFont = {
-        let font = AppFont(
+    lazy var exo: AppFontFamilyType = {
+        let font = AppFontFamilyType(
             id: 1,
             familyName: "Exo",
             defaultFont: "Exo-Regular",
@@ -36,8 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }()
     
     
-    lazy var taviraj: AppFont = {
-        let font = AppFont(plist: "taviraj")
+    lazy var taviraj: AppFontFamilyType = {
+        let font = AppFontFamilyType(plist: "taviraj")
         return font
     }()
 

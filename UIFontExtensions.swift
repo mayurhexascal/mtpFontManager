@@ -161,7 +161,7 @@ extension UIFont {
     
     
     // override system font in IB
-    @objc private convenience init(myCoder aDecoder: NSCoder) {
+    @objc private convenience init?(myCoder aDecoder: NSCoder) {
         if let fontDescriptor = aDecoder.decodeObject(forKey: "UIFontDescriptor") as? UIFontDescriptor {
             let fontAttr = UIFontDescriptor.AttributeName(rawValue: "NSCTFontUIUsageAttribute")
             if let fontAttribute = fontDescriptor.fontAttributes[fontAttr] as? String ,
@@ -192,7 +192,7 @@ extension UIFont {
                 default:
                     fontName = font.defaultFont
                 }
-                self.init(name: fontName, size: fontDescriptor.pointSize)!
+                self.init(name: fontName, size: fontDescriptor.pointSize)
             }
             else {
                 self.init(myCoder: aDecoder)

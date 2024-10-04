@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A48CCE2CAFBECD0003CEBD /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A48CC82CAFBECC0003CEBD /* UIFontExtensions.swift */; };
+		04A48CCF2CAFBECD0003CEBD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A48CC92CAFBECC0003CEBD /* Constants.swift */; };
+		04A48CD02CAFBECD0003CEBD /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A48CCA2CAFBECC0003CEBD /* FontManager.swift */; };
+		04A48CD12CAFBECD0003CEBD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A48CCB2CAFBECC0003CEBD /* Helpers.swift */; };
+		04A48CD22CAFBECD0003CEBD /* AppFontFamilyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A48CCC2CAFBECC0003CEBD /* AppFontFamilyType.swift */; };
+		04A48CD32CAFBECD0003CEBD /* DynamicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A48CCD2CAFBECC0003CEBD /* DynamicTypes.swift */; };
 		3D16E23F2061200C37BFB19AD44A390A /* Pods-mtpFontManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DC4C8DB59DAA66A0A2BDA2EEE439C0 /* Pods-mtpFontManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EC6B48307960B76D904D849616523E2 /* AppFontFamilyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F2A16B0157384EA98C59EDF4A155DA /* AppFontFamilyType.swift */; };
 		4F97551D6BB3666DAB8F64B85B1FD6CB /* Pods-mtpFontManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E63EF261C66BA450D7504527B46DD55E /* Pods-mtpFontManager_Example-dummy.m */; };
 		5065715AEB5F960167E890229CBFEE17 /* mtpFontManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A086331DF8D99138EDB335FA931D29B /* mtpFontManager-dummy.m */; };
 		53388B673961BCCCE83466D262F4E1BE /* mtpFontManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 070319E0D75431DFF453A775490EECE7 /* mtpFontManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,15 +23,10 @@
 		765A28F69DA7B34EC3E17D083BF2C0F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 		7B7E579DEE91A07EAA6EFB794DB394F6 /* FontBlaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3F3FC7B73B6F700EE3D29770D40CD /* FontBlaster.swift */; };
 		8A920F01741DFDB6A1CD66056BD0B042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		924AD51DF40B9B2CDD2012D7BD1695AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34F541AFC63F4491C6EB806354F5B9 /* Constants.swift */; };
 		937F3B60A899543345CDE710A02C40EF /* FontBlaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29ADE79CDC6EB679EB05B6B45006EA9F /* FontBlaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C84D9596C9CD691154A9343398EE48B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		A089C148680FC02C428F6BB0881E633A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		E01C7E01AB651E156BAEE04E36318C7E /* Pods-mtpFontManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C31ADC714924B8339225E4D77F442F /* Pods-mtpFontManager_Tests-dummy.m */; };
-		E46CA9256E4B3B81BA880BD8BE9A2699 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D85A748FC9D250898B92B0C8BFEF2 /* FontManager.swift */; };
-		E777AA57AB8393D0BA467EB72C9E3AC6 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6246A8DC3E1501445A963CEA751E7E7 /* UIFontExtensions.swift */; };
-		EA25B2512336BD8819C5E9B6C3D2E569 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD159E787A0EA8D12ED2888289D6A8A /* Helpers.swift */; };
-		F0EA2D2E380A456D009D3C64AB45B296 /* DynamicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAD81B6D36EF17D85E9BB655B618DED /* DynamicTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +55,18 @@
 
 /* Begin PBXFileReference section */
 		043946EA0BA95A8644C8BC706315E763 /* Pods-mtpFontManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mtpFontManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04A48CC82CAFBECC0003CEBD /* UIFontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
+		04A48CC92CAFBECC0003CEBD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04A48CCA2CAFBECC0003CEBD /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		04A48CCB2CAFBECC0003CEBD /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		04A48CCC2CAFBECC0003CEBD /* AppFontFamilyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFontFamilyType.swift; sourceTree = "<group>"; };
+		04A48CCD2CAFBECC0003CEBD /* DynamicTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTypes.swift; sourceTree = "<group>"; };
 		070319E0D75431DFF453A775490EECE7 /* mtpFontManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mtpFontManager-umbrella.h"; sourceTree = "<group>"; };
 		0935A7C16F7CB60C38755A8BDD77D4D2 /* FontBlaster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontBlaster.xcconfig; sourceTree = "<group>"; };
 		0A03BB105B8D76B5C44571444751BED2 /* Pods-mtpFontManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mtpFontManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0FAD81B6D36EF17D85E9BB655B618DED /* DynamicTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicTypes.swift; path = mtpFontManager/Classes/DynamicTypes.swift; sourceTree = "<group>"; };
 		116939B03FAD42726BF86442BA541A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E1BA579458CD0E473FFC54F90A9008 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1592B525AD55F856822BD842ACC309F4 /* Pods-mtpFontManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mtpFontManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		19F2A16B0157384EA98C59EDF4A155DA /* AppFontFamilyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppFontFamilyType.swift; path = mtpFontManager/Classes/AppFontFamilyType.swift; sourceTree = "<group>"; };
 		237665A619C87C197D555B56D3B7FCEF /* mtpFontManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mtpFontManager.xcconfig; sourceTree = "<group>"; };
 		29ADE79CDC6EB679EB05B6B45006EA9F /* FontBlaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontBlaster-umbrella.h"; sourceTree = "<group>"; };
 		2E9F16396138AC8B7FE9D9D082B0BBD9 /* FontBlaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontBlaster-dummy.m"; sourceTree = "<group>"; };
@@ -73,11 +77,9 @@
 		536269D2A9AD864CE960607E0097772F /* mtpFontManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = mtpFontManager.modulemap; sourceTree = "<group>"; };
 		54DC4C8DB59DAA66A0A2BDA2EEE439C0 /* Pods-mtpFontManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mtpFontManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		5A086331DF8D99138EDB335FA931D29B /* mtpFontManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mtpFontManager-dummy.m"; sourceTree = "<group>"; };
-		5C34F541AFC63F4491C6EB806354F5B9 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = mtpFontManager/Classes/Constants.swift; sourceTree = "<group>"; };
 		6B41279783130ECF0F44F7EC115F82F0 /* mtpFontManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = mtpFontManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6EBC08E0E2A2C65BFB45288705FF2404 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7113E1B5883B6AA3DC53E47ADB8213C7 /* Pods-mtpFontManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mtpFontManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		727D85A748FC9D250898B92B0C8BFEF2 /* FontManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontManager.swift; path = mtpFontManager/Classes/FontManager.swift; sourceTree = "<group>"; };
 		7EF35145CCECED441EA92E139D3C5335 /* mtpFontManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mtpFontManager-prefix.pch"; sourceTree = "<group>"; };
 		7F29ADE7CE5366A4B7DC98019F26A126 /* FontBlaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontBlaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE3F3FC7B73B6F700EE3D29770D40CD /* FontBlaster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontBlaster.swift; path = Sources/FontBlaster.swift; sourceTree = "<group>"; };
@@ -86,7 +88,6 @@
 		8391DCF981500A87CD2726FD46C0EBC6 /* Pods-mtpFontManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mtpFontManager_Tests.modulemap"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FD159E787A0EA8D12ED2888289D6A8A /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = mtpFontManager/Classes/Helpers.swift; sourceTree = "<group>"; };
 		A4899794CAD37343379945741978F676 /* Pods-mtpFontManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mtpFontManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		A5A29487A6D117B55DEB5BD224FA133D /* Pods-mtpFontManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mtpFontManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A5CFF740EA6B687B3ECEA36BDC4ABF8B /* mtpFontManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mtpFontManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +100,6 @@
 		D077C3961D18BF6294A94C012430E79A /* Pods-mtpFontManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mtpFontManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D0DBF5552F277F7C5273159A53FC3A42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D3C31ADC714924B8339225E4D77F442F /* Pods-mtpFontManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mtpFontManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		D6246A8DC3E1501445A963CEA751E7E7 /* UIFontExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtensions.swift; path = mtpFontManager/Classes/UIFontExtensions.swift; sourceTree = "<group>"; };
 		E63EF261C66BA450D7504527B46DD55E /* Pods-mtpFontManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mtpFontManager_Example-dummy.m"; sourceTree = "<group>"; };
 		E83F945F0A0E5A7ABBC0F2CBEC4C1038 /* Pods-mtpFontManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mtpFontManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3D36ADB977E75C172712F512FEC34E7 /* FontBlaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontBlaster.modulemap; sourceTree = "<group>"; };
@@ -262,12 +262,12 @@
 		AB31C4D45D977960AA81145870985131 /* mtpFontManager */ = {
 			isa = PBXGroup;
 			children = (
-				5C34F541AFC63F4491C6EB806354F5B9 /* Constants.swift */,
-				0FAD81B6D36EF17D85E9BB655B618DED /* DynamicTypes.swift */,
-				727D85A748FC9D250898B92B0C8BFEF2 /* FontManager.swift */,
-				19F2A16B0157384EA98C59EDF4A155DA /* AppFontFamilyType.swift */,
-				9FD159E787A0EA8D12ED2888289D6A8A /* Helpers.swift */,
-				D6246A8DC3E1501445A963CEA751E7E7 /* UIFontExtensions.swift */,
+				04A48CCC2CAFBECC0003CEBD /* AppFontFamilyType.swift */,
+				04A48CC92CAFBECC0003CEBD /* Constants.swift */,
+				04A48CCD2CAFBECC0003CEBD /* DynamicTypes.swift */,
+				04A48CCA2CAFBECC0003CEBD /* FontManager.swift */,
+				04A48CCB2CAFBECC0003CEBD /* Helpers.swift */,
+				04A48CC82CAFBECC0003CEBD /* UIFontExtensions.swift */,
 				887EEE8280C885FECE37D43A3D4D244B /* Pod */,
 				A84978A05157FA46BBAB36BFB0B45976 /* Support Files */,
 			);
@@ -432,7 +432,7 @@
 						LastSwiftMigration = 1020;
 					};
 					B1E3D7837B2B85C050FC5F1A8917D8E6 = {
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -518,13 +518,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924AD51DF40B9B2CDD2012D7BD1695AB /* Constants.swift in Sources */,
-				F0EA2D2E380A456D009D3C64AB45B296 /* DynamicTypes.swift in Sources */,
-				E46CA9256E4B3B81BA880BD8BE9A2699 /* FontManager.swift in Sources */,
-				3EC6B48307960B76D904D849616523E2 /* AppFontFamilyType.swift in Sources */,
-				EA25B2512336BD8819C5E9B6C3D2E569 /* Helpers.swift in Sources */,
+				04A48CCE2CAFBECD0003CEBD /* UIFontExtensions.swift in Sources */,
 				5065715AEB5F960167E890229CBFEE17 /* mtpFontManager-dummy.m in Sources */,
-				E777AA57AB8393D0BA467EB72C9E3AC6 /* UIFontExtensions.swift in Sources */,
+				04A48CD22CAFBECD0003CEBD /* AppFontFamilyType.swift in Sources */,
+				04A48CD02CAFBECD0003CEBD /* FontManager.swift in Sources */,
+				04A48CD12CAFBECD0003CEBD /* Helpers.swift in Sources */,
+				04A48CCF2CAFBECD0003CEBD /* Constants.swift in Sources */,
+				04A48CD32CAFBECD0003CEBD /* DynamicTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,6 +722,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 237665A619C87C197D555B56D3B7FCEF /* mtpFontManager.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -821,6 +822,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 237665A619C87C197D555B56D3B7FCEF /* mtpFontManager.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
